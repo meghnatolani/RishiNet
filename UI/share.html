@@ -1,0 +1,115 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="admin" >
+<title>Share Your Experience</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="themes/assets/css/carousel.css" rel="stylesheet">
+<link href="bootstrap/css/index.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+<style>
+    {% include "bootstrap/css/bootstrap.min.css" %}
+    {% include "bootstrap/css/carousel.css" %}
+    {% include "bootstrap/css/index.css" %}
+    {% include "bootstrap/css/bootstrap.css" %}
+    {% include "bootstrap/css/gallery.css" %}
+    {% include "bootstrap/css/bootstrap-glyphicons.css" %}
+    </style>
+    
+</head>
+<body>
+ <div id="menu">
+		<ul>
+		    <li><img src="http://i.imgur.com/DaSk2Cf.jpg" alt="" /><li/>
+			<li><a href="/contact/"  title="">Contact Us</a></li>
+			<li><a href="/share/" title="">Share </a></li>
+			<li><a href="/gallery01/" title="">Gallery</a></li>
+			<li><a href="/about/" title="">About</a></li>
+			<li><a href="/index/" title="">Home</a></li>
+		</ul>
+	</div>		
+				
+                
+              </ul>
+          
+<br><br><br><br><br><br><br>
+      
+ <div id="main">
+    <br>
+         <form name="post" class="form" action= "/share_do/" id="share">
+	<table border="0">
+	
+<div class="col-md-4"></div>
+<div class="col-md-4">
+   <div class="form-group">
+   <h2>&nbsp;<u>Share Your Experience</u></h2><br></div>
+   <div class="col-md-10">
+	      <label for="my_name"> Your Name&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+              <input  type="text" name="myname" id="my_name" class="form-control" required/><br><br>
+              
+              <label for="email_id">Your Email</label> 
+              <input type="text" id="email" name="email_id"  class="form-control"><br><br>
+            
+              <label>Rishi's Name</label> 
+              <input type="text" name="rishi_name"  class="form-control" required/><br><br>
+             
+            
+              <label>Ashram's Name:</label> 
+              <input type="text" name="ashram_name"  class="form-control" required/><br><br>
+              
+             <label>State</label> 
+             <input type="text" name="state" class="form-control" required/> <br><br>
+             
+                 
+             <label>
+              City</label> 
+              <input type="text" name="city" class="form-control" required/> <br><br>
+             
+                 
+             <label for="pincode">
+              Pincode</label>
+               <input type="text" id="pincode" name="pincode" class="form-control"> <br><br>
+           
+                 
+             <label>
+              About Ashram</label>
+             <textarea name="about_ashram" class="form-control" required/></textarea> <br><br>
+              
+                  
+              <label>
+              About Rishi</label>
+              <textarea name="about_rishi" class="form-control"></textarea> <br><br>
+              
+              
+              <button class="btn btn-success" type="submit" id= "share" name="/share_do/" >Submit</button><br><br>
+            
+            </table>
+           
+    </form>
+</center>
+           </div>
+
+ </div>
+
+<!--footer begins -->
+<br><br>
+
+<div id="footer">
+
+<script type="text/javascript">
+        {% include "bootstrap/js/jquery-1.10.2.js" %}
+        {% include  "bootstrap/js/bootstrap.min.js" %}
+        {% include  "bootstrap/js/validate.js" %}
+    </script>
+
+</div>
+<!-- footer ends-->
+</body>
+</html>

@@ -1,0 +1,370 @@
+
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #193A6C;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #193A6C;
+}
+
+body {
+
+	font: 12px Arial;
+	color: #193A6C;
+}
+
+#content
+{
+
+}
+
+#back
+{
+width: 820px;
+background: #D5E5FE;
+margin: 0 auto;
+padding-top: 10px;
+}
+
+#header {
+	text-align: left;		
+}
+
+.header_text
+{
+margin: 0 auto;
+width: 820px;
+}
+
+.header_image
+{
+height: 300px;
+width: 799px;
+background: url(images/header.jpg);
+margin-left: 10px; 
+}
+
+#menu
+{
+width: 1340px;
+height: 80px;
+padding-left: 140px;
+margin-top: 7px;
+border-bottom: 5px solid #6586B8;
+}
+
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+
+#menu a {
+	float: right;
+	width: 110.75px;
+	height: 44px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(51,51,51);
+	font:normal normal normal 15px/18px Oswald;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#menu a:hover {
+	width: 120px;
+    height: 44px;
+	color: rgb(0,0,100);
+	background: url(images/button_r.png) repeat-x;
+	text-decoration: underline;
+}
+#footer {
+	height: 50px;
+	clear: both;
+	padding-top: 20px;
+	border-top: 5px solid #6586B8;
+	background: url(images/footer.gif) repeat-x bottom;
+}
+#footer li{
+	display:inline
+}
+#footer a{
+	float:right;
+	width:160px;
+}
+#DIV_1 {
+    color: rgb(102, 101, 101);
+    height: 380px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 1270px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    outline: rgb(102, 101, 101) none 0px;
+    padding: 123px 0px 128px;
+}/*#DIV_1*/
+
+#DIV_2 {
+    color: rgb(255, 0, 0);
+    float: right;
+    height: 10px;
+    text-decoration: none solid rgb(255, 0, 0);
+    vertical-align: top;
+    width: 635px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 0, 0);
+    font: normal normal normal 10px/10px Arial, Helvetica, sans-serif;
+    margin: -2794px 0px 0px;
+    outline: rgb(255, 0, 0) none 0px;
+    overflow: hidden;
+}/*#DIV_2*/
+
+#DIV_3 {
+    color: rgb(102, 101, 101);
+    height: 380px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 1152px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    margin: 0px 59px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#DIV_3*/
+
+#DIV_4 {
+    color: rgb(102, 101, 101);
+    float: left;
+    height: 378px;
+    position: relative;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 840px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    margin: 0px 12px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#DIV_4*/
+
+#DIV_5 {
+    color: rgb(102, 101, 101);
+    height: 378px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 840px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#DIV_5*/
+
+#H3_6 {
+    color: rgb(38, 53, 85);
+    height: 44px;
+    text-decoration: none solid rgb(38, 53, 85);
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 840px;
+    border: 0px none rgb(38, 53, 85);
+    font: normal normal normal 38px/44px 'Pathway Gothic One', sans-serif;
+    margin: 0px 0px 50px;
+    outline: rgb(38, 53, 85) none 0px;
+}/*#H3_6*/
+
+#IMG_7 {
+    box-sizing: border-box;
+    color: rgb(102, 101, 101);
+    display: block;
+    float: left;
+    height: 281px;
+    max-width: 100%;
+    position: relative;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 360px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    margin: 3px 25px 0px 0px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#IMG_7*/
+
+#P_8 {
+    color: rgb(102, 101, 101);
+    height: 190px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 1200px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    margin: 0px 0px 19px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#P_8*/
+
+#DIV_9, #DIV_25 {
+    clear: both;
+    color: rgb(102, 101, 101);
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    visibility: hidden;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    outline: rgb(102, 101, 101) none 0px;
+    overflow: hidden;
+}/*#DIV_9, #DIV_25*/
+
+#DIV_10 {
+    color: rgb(102, 101, 101);
+    float: left;
+    height: 380px;
+    position: relative;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 264px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    margin: 0px 12px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#DIV_10*/
+
+#H3_11 {
+    color: rgb(38, 53, 85);
+    height: 44px;
+    text-decoration: none solid rgb(38, 53, 85);
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 264px;
+    border: 0px none rgb(38, 53, 85);
+    font: normal normal normal 38px/44px 'Pathway Gothic One', sans-serif;
+    margin: 0px 0px 50px;
+    outline: rgb(38, 53, 85) none 0px;
+}/*#H3_11*/
+
+#UL_12 {
+    color: rgb(102, 101, 101);
+    height: 286px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 264px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(102, 101, 101) none 0px;
+    padding: 0px;
+}/*#UL_12*/
+
+#LI_13 {
+    color: rgb(102, 101, 101);
+    height: 66px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 264px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#LI_13*/
+
+#DIV_14, #DIV_18, #DIV_22 {
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 31px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    vertical-align: top;
+    width: 31px;
+    background: rgb(56, 175, 229) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(79, 147, 178);
+    border-radius: 500px 500px 500px 500px;
+    font: normal normal normal 13px/30px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 3px 25px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_14, #DIV_18, #DIV_22*/
+
+#DIV_15, #DIV_23 {
+    color: rgb(102, 101, 101);
+    height: 66px;
+    text-align: left;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 206px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    outline: rgb(102, 101, 101) none 0px;
+    overflow: hidden;
+}/*#DIV_15, #DIV_23*/
+
+#DIV_16, #DIV_20, #DIV_24 {
+    color: rgb(38, 53, 85);
+    height: 19px;
+    text-align: left;
+    text-decoration: none solid rgb(38, 53, 85);
+    vertical-align: top;
+    width: 206px;
+    border: 0px none rgb(38, 53, 85);
+    font: normal normal normal 16px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px 0px 9px;
+    outline: rgb(38, 53, 85) none 0px;
+}/*#DIV_16, #DIV_20, #DIV_24*/
+
+#LI_17 {
+    color: rgb(102, 101, 101);
+    height: 85px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 264px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 35px 0px 0px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#LI_17*/
+
+#DIV_19 {
+    color: rgb(102, 101, 101);
+    height: 85px;
+    text-align: left;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 206px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    outline: rgb(102, 101, 101) none 0px;
+    overflow: hidden;
+}/*#DIV_19*/
+
+#LI_21 {
+    color: rgb(102, 101, 101);
+    height: 66px;
+    text-decoration: none solid rgb(102, 101, 101);
+    vertical-align: top;
+    width: 264px;
+    border: 0px none rgb(102, 101, 101);
+    font: normal normal normal 13px/19px Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 34px 0px 0px;
+    outline: rgb(102, 101, 101) none 0px;
+}/*#LI_21*/
+

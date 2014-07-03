@@ -1,0 +1,334 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="admin" >
+    <title>RishiNet:Search for Rishis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="themes/assets/css/carousel.css" rel="stylesheet">
+    <link href="bootstrap/css/index.css" rel="stylesheet" type="text/css" media="screen">
+    
+    <style>
+    {% include "bootstrap/css/bootstrap.min.css" %}
+    {% include "bootstrap/css/bootstrap-glyphicons.css" %}
+    {% include "bootstrap/css/carousel.css" %}
+    {% include "bootstrap/css/index.css" %}
+    {% include "bootstrap/css/bootstrap.css" %}
+    {% include "bootstrap/css/gallery.css" %}
+  
+   </style>
+    
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body >
+  <div id="menu" style="background-color : http://www.momorialcards.com/images/light_textured_backround.jpg">
+		<ul>
+		    <li><img src="http://i.imgur.com/DaSk2Cf.jpg" alt="RishiNet" /><li/>
+			<li><a href="/contact/"  title="">Contact Us</a></li>
+			<li><a href="/share/" title="">Share </a></li>
+			<li><a href="/gallery01/" title="">Gallery</a></li>
+			<li><a href="/about/" title="">About</a></li>
+			<li><a href="/index/" title="">Home</a></li>
+		</ul>
+	</div>
+
+          <!-- <div id="footer">
+             <li><a href="#" title="">Contact Us</a></li>
+             <li><a href="#" title="">Useful Links</a></li>
+             <li><a href="index.html" title="">Back to top</a></li>
+             
+    </div> -->
+				
+			
+				
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+<br><br><br><br><br><br><br>
+      </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="mainCarousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <script
+			src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+			</script>
+			<script>
+			var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+			var marker;
+			function initialize()
+			{
+			var mapProp = {
+			  center:myCenter,
+			  zoom:15,
+			  mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			marker=new google.maps.Marker({
+			  position:myCenter,
+			 // icon:'themes/assets/images/nepali-momo.png',
+			  animation:google.maps.Animation.BOUNCE
+			  });
+
+			marker.setMap(map);
+
+			// Info open
+			var infowindow = new google.maps.InfoWindow({
+			  content:"Hello World!"
+			  });
+
+			google.maps.event.addListener(marker, 'click', function() {
+			  infowindow.open(map,marker);
+			  });
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div id="googleMap" style="height:450px;"></div>
+			  <div class="container">
+				
+			  </div>
+			</div>
+		  </div>
+		</div><!-- /.carousel -->
+	</div>
+
+	<div id="DIV_1" style="color:#193A6C">
+  <div id="DIV_2">
+    <form action="#" id="FORM_3">
+      <div id="DIV_4">
+        <div id="DIV_5">
+          <div id="DIV_6">
+            <input type="text" name="s" id="INPUT_7" placeholder="Search keyword..." />
+  
+                
+                
+                <div id="DIV_18">
+                  <input type="checkbox" name="geo" id="INPUT_19" />
+                  <div id="DIV_20">
+                  
+              
+              </div>
+            </div>
+            
+                        <select name="select" id="INPUT_28">
+                        <option value="location">By location </option>
+<option value="ashram_name">By Aashram names </option>
+
+            </select>
+            
+                        
+            
+                       
+          </div>
+        </div>
+      </div>
+      <div id="DIV_31">
+        <input type="submit" value="Search" id="INPUT_32" />
+      </div>
+      <input type="hidden" name="dir-search" value="yes" id="INPUT_33" />
+    </form>
+  </div>
+</div>
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+      
+          <h2>Awareness</h2>
+          <p>Spreading Awareness about the Sages in India.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+         
+          <h2>Gathering Information</h2>
+          <p>Bringing together all the information regarding the sages in India, which is not easily available on Internet. </p>
+        
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+		  
+          <h2>Encouraging current youth</h2>
+          <p>Encouraging the current youth to visit the ashrams existing. </p>
+         
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+	</div>
+	
+
+	
+	
+	<div class="introSection">
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="cntr">We are launching complete online guide to ashrams in India that are related to Sages(Rishi's) in the early ages.  </h1>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	 <div class="container marketing">
+    <h2 class="itemsTitle">Books written by rishis </h2>
+	<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-inner">
+        <div class="item active">
+         <div class="row">
+        <div class="col-lg-4">
+          <img src="http://i.imgur.com/27G3nz6.jpg" alt="Arthashastra">
+          <h4>Arthashastra</h4>
+          <p><a class="btn btn-default" href="https://archive.org/details/ArthashastraOf
+
+ChanakyaEnglish" role="button">Read Me &raquo;</a></p>
+        </div>
+<div class="col-lg-4"> 
+        <img src="http://i.imgur.com/XyrxG6t.jpg" alt="Ramayan by Valmiki">
+          <h4>Ramayan by Valmiki</h4>
+          <p><a class="btn btn-default" href="https://archive.org/details/Valmiki-ramayan-sanskrit-Balkand-Audio" role="button">Read Me &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="http://i.imgur.com/zyEzrUf.jpg" alt="Upanishads">
+          <h4>Upanishads</h4>
+          <p><a class="btn btn-default" href="http://hinduism.about.com/od/scripturesepics/a/upanishads_text.htm" role="button"> Read Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+		 
+        </div>
+        <div class="item">
+         <div class="row">
+        <div class="col-lg-4">
+          <img src="http://i.imgur.com/sjTZ1Pz.jpg" alt="Generic placeholder image">
+          <h4>Rig Veda </h4>
+          <p><a class="btn btn-default" href="https://archive.org/search.php?query=rigveda" role="button">Read Me  &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="http://i.imgur.com/YEYLa4M.jpg" alt="Generic placeholder image">
+          <h4>Yajur Veda</h4>
+          <p><a class="btn btn-default" href="http://www.nandanmenon.com/yajur_veda.pdf" role="button">Read Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="http://i.imgur.com/rUiaBJG.jpg" alt="Sam Veda ">
+          <h4>Sam Veda </h4>
+          <p><a class="btn btn-default" href="https://archive.org/search.php?query=sam%20veda" role="button">Read Me  &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+		 
+        </div>
+        <div class="item">
+          <div class="row">
+        <div class="col-lg-4">
+          <img  src="http://i.imgur.com/lsgqSDM.jpg" alt="Arthva Veda">
+          <h4>Arthva Veda</h4>
+          <p><a class="btn btn-default" href="https://archive.org/search.php?query=atharva%20veda" role="button">Read Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img  src="http://i.imgur.com/dEbEI2D.jpg" alt="Puranas">
+          <h4>Puranas</h4>
+          <p><a class="btn btn-default" href="https://archive.org/search.php?query=puranas" role="button">Read Me   &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img  src="http://i.imgur.com/sftOAsP.jpg" alt="Wisdom of Rishis">
+          <h4>Wisdom of Rishis</h4>
+          <p><a class="btn btn-default" href="https://archive.org/search.php?query=wisdom%20of%20rishis" role="button">Read Me &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+        </div>
+      </div>
+      
+    </div><!-- /.carousel -->
+	</div>
+	
+		
+	
+
+		      
+
+	
+	<div class="introSection">
+		<div class="container">
+		<div class="row">
+		<div class="col-lg-5">
+       <img  src="http://i.imgur.com/PlGzKeC.jpg" alt="Generic placeholder image">
+		 </div>
+		
+		<div class="col-lg-4">
+		<h3>Welcome to Rishinet </h3>
+    <p>
+    This website is your guide to ashrams in India that are related to Sages(Rishi's) in the early ages. Ashrams offer a sanctuary to go deeper into your spiritual practice away from the distraction and stress of every-day life. Most of the ashrams listed here provide clean accommodations and healthy, vegetarian food. You can attend a scheduled class or workshop, or visit the ashram for an extended period of self-study. Some people come for days or weeks, while some become full-time residents. For all details on schedules, pricing, accommodations and travel please contact the ashram directly. If you have any suggestions to add to this directory, please contact us with information about the ashram and a link to their website. <br><br>
+		
+		</p>
+		
+		</div>
+		
+		
+		
+		</div>
+		</div>
+	</div>
+
+
+
+      
+	
+
+
+	
+
+      <!-- FOOTER -->
+     <footer style=
+    "margin-top: 46px;
+    margin-bottom: 0px;">	
+<div class="container_12">
+<div class="grid_12">
+<div class="copy">
+RishiNet © 2014 
+</div></div>
+<div class="clear"></div>
+</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="themes/dist/js/bootstrap.min.js"></script>
+    <script src="themes/assets/js/holder.js"></script>
+    
+    <script type="text/javascript">
+        {% include "bootstrap/js/jquery-1.10.2.js" %}
+        {% include  "bootstrap/js/bootstrap.min.js" %}
+       </script>
+   
+  </body>
+</html>

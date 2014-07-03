@@ -1,0 +1,85 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="admin" >
+    <title>Gallery</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the 'Thumbnail Gallery' Template -->
+    <link href="bootstrap/css/gallery.css" rel="stylesheet">
+    <link href="themes/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="themes/assets/css/carousel.css" rel="stylesheet">
+    <link href="bootstrap/css/index.css" rel="stylesheet" type="text/css" media="screen">
+    <style>
+   {% include "bootstrap/css/bootstrap.min.css" %}
+    {% include "bootstrap/css/carousel.css" %}
+    {% include "bootstrap/css/index.css" %}
+    {% include "bootstrap/css/bootstrap.css" %}
+    {% include "bootstrap/css/gallery.css" %}
+    {% include "bootstrap/css/bootstrap-glyphicons.css" %}
+     </style>
+</head>
+
+<body>
+
+    
+
+<div id="menu">
+		<ul>
+		    <li><img src="http://i.imgur.com/DaSk2Cf.jpg" alt="" /><li/>
+			<li><a href="#"  title="">Contact Us</a></li>
+			<li><a href="/share/" title="">Share </a></li>
+			<li><a href="/gallery01/" title="">Gallery</a></li>
+			<li><a href="/about/" title="">About</a></li>
+			<li><a href="/index/" title="">Home</a></li>
+		</ul>
+	</div>
+	
+<br><br><br><br><br>
+ 
+ <div class="container">
+
+       <br><br><br>
+
+       {% for post in x %}
+	      {% if post.status == 1 %}
+        <div class="row">
+
+            <div class="col-lg-7 col-md-5">
+                <a href="#">
+                    <img class="img-responsive" src="http://www.comedyweb.com/img/placeholder.png" alt="">
+                </a>
+                <br><br>
+            </div>
+
+            
+            <div class="col-lg-5 col-md-5">
+                <h3>{{ post.ashram_name }}</h3>
+                <h4>{{ post.rishi_name }}</h4>
+                <p>Location : {{ post.city }} , {{ post.state }} </p>
+                   <button class="btn btn-primary">View More &raquo;</button>
+            </div>
+            
+	      {% endif %}
+	    {% endfor %}
+        </div>
+
+        <hr>
+
+	<footer style=
+    "margin-top: 46px;
+    margin-bottom: 0px;">	
+<div class="container_12">
+<div class="grid_12">
+<div class="copy">
+RishiNet © 2014 
+</div></div>
+<div class="clear"></div>
+</div>
+</body>
+</html>
